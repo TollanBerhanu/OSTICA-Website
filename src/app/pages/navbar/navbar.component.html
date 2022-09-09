@@ -1,0 +1,53 @@
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center" [ngClass]="{headerScrolled: isScrolled}">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
+        <div class="logo_img">
+          <img src="/assets/img/ostica_logo.jpg" alt="logo">
+        </div>
+        <div class="logo">
+          <h1 class="text-light" style="text-align: center;"><a href="index.html"><span>OSTICA</span></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#hero"  [ngClass]="{active: home}">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about" [ngClass]="{active: about}">About</a></li>
+            <li><a class="nav-link scrollto" href="#contact" [ngClass]="{active: contact}">Contact</a></li>
+            <li><a class="nav-link scrollto" routerLink="/news" routerLinkActive="active">News</a></li>
+            <!-- <li><a class="nav-link scrollto" href="#services" routerLinkActive="active">Services</a></li> -->
+            <li class="dropdown"><a href="#" class="nav-link" routerLink="/directorates" routerLinkActive="active"><span>Directorates</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a routerLink="/directorates/e-government" class="nav-link">E-Government</a></li>
+                <li><a routerLink="/directorates/capacity-building" class="nav-link">Capacity Building</a></li>
+                <li><a routerLink="/directorates/infrastructure-development" class="nav-link">Infrastructure Developmet</a></li>
+                <li><a routerLink="/directorates/intellectual-property" class="nav-link">Intellectual Property</a></li>
+                <li><a routerLink="/directorates/emission-and-usage" class="nav-link">Emission and Usage Regulatory</a></li>
+                <li><a routerLink="/directorates/innovation-and-technology" class="nav-link">Innovation and Technology Transfer</a></li>
+                <li><a routerLink="/directorates/quality-infrastructure" class="nav-link">Quality Infrastrcture</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a routerLink="/branches" routerLinkActive="active" class="nav-link"><span>Branch</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <!-- <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                  </ul>
+                </li> -->
+                <li><a routerLink="/branches/science-and-technology" class="nav-link">Science and Technology</a></li>
+                <li><a routerLink="/branches/transfer-and-technology" class="nav-link">Transfer and Technology</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" routerLink="/feedback" routerLinkActive="active">Feedback</a></li>
+            <li><a class="nav-link getstarted scrollto" routerLink="/login">Sign In</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+      </div><!-- End Header Container -->
+    </div>
+  </header><!-- End Header -->

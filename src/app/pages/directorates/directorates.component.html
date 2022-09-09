@@ -1,0 +1,39 @@
+
+ <!-- ======= Sidebar ======= -->
+ <aside id="sidebar" class="sidebar top_margin">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-heading">Directorates</li>
+
+      <li class="nav-item" *ngFor="let d of directorates">
+        <a class="nav-link collapsed" routerLink="{{ d.path }}">
+          <i class="bi bi-file-earmark"></i>
+          <span>{{ d.title }}</span>
+        </a>
+      </li><!-- End Blank Page Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <!--<div class="pagetitle">
+      <h1>Frequently Asked Questions</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Pages</li>
+          <li class="breadcrumb-item active">Frequently Asked Questions</li>
+        </ol>
+      </nav>
+    </div> End Page Title -->
+
+    <router-outlet></router-outlet>
+
+  </main><!-- End #main -->
+
+  <div style="position: fixed; bottom: 0px; width: 100%;">
+    <app-footer></app-footer>
+  </div>

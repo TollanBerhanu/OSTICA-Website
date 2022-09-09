@@ -1,0 +1,55 @@
+.title-section{
+    height:380px !important;
+}
+div.company-title{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+div.company-title h1{
+    font-size: 30px !important;
+}
+div.company-title h2{
+    font-size: 20px !important;
+}
+div.line-2, div.line-4, div.line-6{
+    margin: auto;
+    height: 3px;
+    background-color: #009970;
+}
+div.line-2{
+    width: 20%;
+}
+div.line-4{
+    width: 40%;
+}
+div.line-6{
+    width: 60%;
+}
+div.ostica-logo{
+    margin: 0px;
+    text-align: center;
+}
+div.ostica-logo img{
+    height: 90px;
+    width: 60%;
+}
+span.bold{
+    font-weight: bold;
+}
+img.home_photo{
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+img.home_photo_left{
+    width: 30%;
+    margin: 0px 50px;
+    float: left;
+}
+div.paragraph_justify p{
+    text-align: justify;
+}
+.font_small{
+    font-size: 15px !important;
+}

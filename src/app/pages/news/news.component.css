@@ -1,0 +1,28 @@
+
+div.line-2, div.line-4, div.line-6{
+    margin: 40px auto;
+    height: 3px;
+    background-color: #009970;
+}
+div.line-2{
+    width: 20%;
+}
+div.line-4{
+    width: 40%;
+}
+div.line-6{
+    width: 60%;
+}
+img.home_photo{
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+img.home_photo_left{
+    width: 30%;
+    margin: 0px 50px;
+    float: left;
+}
+p.paragraph_justify{
+    text-align: justify;
+}

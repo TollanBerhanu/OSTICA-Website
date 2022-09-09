@@ -1,0 +1,11 @@
+div.logo{
+    width: 210px;
+}
+div.logo_img{
+    height: 60px;
+    width: 0px;
+}
+div.logo_img img{
+    height: 100%;
+    width: 1005;
+}
